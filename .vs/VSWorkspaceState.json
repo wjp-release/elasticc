@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\elasticc",
+    "\\libcurl-x64-debug",
+    "\\libcurl-x64-debug\\include\\curl",
+    "\\libcurl-x64-debug\\lib",
+    "\\libcurl-x64-release\\include",
+    "\\libcurl-x64-release\\lib"
+  ],
+  "SelectedNode": "\\elasticc\\CMakeLists.txt",
+  "PreviewInSolutionExplorer": false
+}
