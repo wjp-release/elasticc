@@ -116,7 +116,7 @@ namespace elasticc {
 	static inline void Index(std::string& result, const std::string& index, const std::string& type, const std::string& documentJson, int id = -1)
 	{
 		CurlPutJson("localhost:9200/twitter/_doc/1",
-					"{ 'user':'kimchy','post_date':'2019-11-15T14:12:12','message':'try elasticc'}",
+					"{ \"user\":\"kimchy\",\"post_date\":\"2019-11-15T14:12:12\",\"message\":\"try elasticc\"}",
 					result);
 	}
 	// 功能同Index，只不过不会覆盖指定位置已存在的文档，而是返回操作失败信息。
